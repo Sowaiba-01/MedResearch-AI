@@ -1,8 +1,6 @@
-# MedResearch AI
+# ClinicaQuery-AI
 
 An AI-powered medical research assistant that lets you upload PDF papers and ask questions about them using Retrieval-Augmented Generation (RAG). Built with Next.js, FastAPI, ChromaDB, and Google Gemini.
-
-![MedResearch AI](https://img.shields.io/badge/Next.js-16-black?logo=next.js) ![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi) ![Gemini](https://img.shields.io/badge/Google-Gemini_AI-4285F4?logo=google) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
@@ -45,7 +43,7 @@ An AI-powered medical research assistant that lets you upload PDF papers and ask
 ## Project Structure
 
 ```
-medical-assistant/
+ClinicaQuery-AI/
 ├── backend/
 │   ├── core/
 │   │   ├── ingestion.py      # PDF chunking + embedding
@@ -93,8 +91,8 @@ medical-assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/medical-assistant.git
-cd medical-assistant
+git clone https://github.com/Sowaiba-01/ClinicaQuery-AI.git
+cd ClinicaQuery-AI
 ```
 
 ---
@@ -160,7 +158,7 @@ Frontend runs at `http://localhost:3000`
 
 ### 4. Open the app
 
-Navigate to `http://localhost:3000` — you'll be redirected to the Google sign-in page. After signing in you'll see the full app with the sidebar.
+Navigate to `http://localhost:3000` you'll be redirected to the Google sign-in page. After signing in you'll see the full app with the sidebar.
 
 ---
 
@@ -235,8 +233,5 @@ curl -X POST http://localhost:8000/api/query \
 
 This tool is intended **for research purposes only**. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a licensed physician.
 
----
+**License:** MIT
 
-## License
-
-MIT
